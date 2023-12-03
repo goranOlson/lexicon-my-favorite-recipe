@@ -8,10 +8,9 @@ body {
     box-shadow: 1px 5px 14px darkgray;
 }
 
-header {
-    position: relative;
-}
+header { position: relative; }
 header img { width: 100%; }
+
 h1 {
     width: 100%;
     padding-block: 8px;
@@ -21,4 +20,11 @@ h1 {
     position: absolute;
     bottom: 0;
     text-align: center;    
+}
+
+div.flex-column { display: flex; }
+
+section.column {
+    width: 100%;
+    padding: 24px;
 }
