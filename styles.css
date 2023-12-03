@@ -18,13 +18,38 @@ h1 {
     box-shadow: 0 0 12px;
     color: white;
     position: absolute;
-    bottom: 0;
+    bottom: 8px;
     text-align: center;    
 }
 
-div.flex-column { display: flex; }
+h2 {
+    padding: 24px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+h3 { border-bottom: 1px solid #444; }
+
+div.flex-columns {
+    display: flex;
+    flex-direction: row;
+}
 
 section.column {
     width: 100%;
     padding: 24px;
+    padding-inline: 40px;
+}
+
+.img-kottfarssas { width: 100%; }
+
+footer {
+    margin: 0;
+    padding: 16px;
+    text-align: center;
+}
+
+footer > a {
+     color: black;
+    text-decoration: none;
 }
